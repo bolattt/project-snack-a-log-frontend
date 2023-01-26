@@ -8,9 +8,8 @@ For this project, there are 40 features or functionality to build. You are requi
 
 ## Overview
 
-- Using the [`project-snack-a-log-frontend`](https://github.com/9-1-pursuit/project-snack-a-log-frontend) and [`project-snack-a-log-backend`](https://github.com/9-1-pursuit/project-snack-a-log-backend) repos, create a full-stack web application by building the two applications and having them interact.
+- Using the [`project-snack-a-log-frontend`](https://github.com/9-2-pursuit/project-snack-a-log-frontend) and [`project-snack-a-log-backend`](https://github.com/9-2-pursuit/project-snack-a-log-backend) repos, create a full-stack web application by building the two applications and having them interact.
 - Use Express to build a complete CRUD back-end application that adheres to RESTful routes.
-- Use back-end unit tests to guide the building process.
 - Deploy the applications separately so that anyone can see them online and the two online applications can interact.
 
 ## User Stories, Acceptance Criteria, and Code Quality Rubric
@@ -27,7 +26,7 @@ It would be best if you began with the back-end setup and then moved on to setti
 1. Has a link to each snack's show page
 1. Has a solid heart, if the snack is healthy
 1. Has a heart outline; if the snack is unhealthy
-1. Has the CSS that is detailed in the tests
+1. CSS spec ?????????
 1. Show page
 1. Shows header text
 1. Can navigate to the New page
@@ -50,7 +49,8 @@ It would be best if you began with the back-end setup and then moved on to setti
 > **Note**: There are no front-end tests; your hosted application's functionality and code quality will be used to evaluate you.
 
 ### Additional points:
-- Completed front-end (see [project-snack-a-log-back-end](https://github.com/9-1-pursuit/project-snack-a-log-backend) for more details)
+
+- Completed front-end (see [project-snack-a-log-back-end](https://github.com/2-pursuit/project-snack-a-log-backend) for more details)
 
 > **Grand total**: 45 points
 
@@ -58,7 +58,7 @@ It would be best if you began with the back-end setup and then moved on to setti
 
 1. Navigate to your directory called `project-snack-a-log`.
 1. `cd` into the directory.
-1. Fork and clone the [`project-snack-a-log-front-end`](https://github.com/9-1-pursuit/project-snack-a-log-frontend) repo into your `project-snack-a-log` directory.
+1. Fork and clone the [`project-snack-a-log-front-end`](https://github.com/9-2-pursuit/project-snack-a-log-frontend) repo into your `project-snack-a-log` directory.
 1. Change the name of your `project-snack-a-log-front-end` directory to `front-end`.
 
 > **Note**: Your `back-end` directory should be adjacent to your `front-end` directory. Both should be their own git repositories. The top-level `project-snack-a-log` folder should **NOT** be a git repository.
@@ -105,5 +105,5 @@ Use the resources below to deploy your application.
 
 ### Front-end Deployment
 
-1. [Netlify Deployment Instructions](https://github.com/9-1-pursuit/guide-deployment/tree/main/netlify-create-react-app)
+1. [Netlify Deployment Instructions](https://github.com/9-2-pursuit/guide-deployment/tree/main/netlify-create-react-app)
 1. [Netlify Deployment Video](https://drive.google.com/file/d/1am3ljqxJTyvPQ5hzlsaU7o_bf6-lA4UK/view?usp=sharing)

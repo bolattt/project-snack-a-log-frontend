@@ -50,7 +50,7 @@ It would be best if you began with the back-end setup and then moved on to setti
 
 ### Additional points:
 
-- Completed front-end (see [project-snack-a-log-back-end](https://github.com/2-pursuit/project-snack-a-log-backend) for more details)
+- Completed front-end (see [project-snack-a-log-back-end](https://github.com/9-2-pursuit/project-snack-a-log-backend) for more details)
 
 > **Grand total**: 45 points
 

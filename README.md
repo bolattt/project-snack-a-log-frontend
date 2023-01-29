@@ -26,7 +26,7 @@ It would be best if you began with the back-end setup and then moved on to setti
 1. Has a link to each snack's show page
 1. Has a solid heart, if the snack is healthy
 1. Has a heart outline; if the snack is unhealthy
-1. CSS spec ?????????
+1. The CSS has a coherent design across the different views of the app
 1. Show page
 1. Shows header text
 1. Can navigate to the New page

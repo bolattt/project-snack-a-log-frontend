@@ -1,4 +1,4 @@
-import { Link, BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Index from "./pages/Index";
 import Show from "./pages/Show";
@@ -8,7 +8,6 @@ import NotFound from "./pages/NotFound";
 function App() {
   return (
     <div className="App">
-      <h1>Hello, world!</h1>
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />

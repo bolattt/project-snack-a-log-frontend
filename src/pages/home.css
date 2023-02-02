@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "coffee";
+  src: local("CoffeeHealing"), url("../../Fonts/CoffeeHealing.ttf");
+}
+
+.Home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.home-overlay {
+  position: fixed;
+
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F44%2F2020%2F07%2F07%2FGettyImages-1149135424.jpg");
+  background-size: cover;
+  z-index: -1;
+  filter: brightness(40%) blur(2px);
+}
+.welcome-text {
+  font-family: coffee;
+  font-size: 12rem;
+  color: #ddd;
+}
+
+.Home img {
+  background-blend-mode: multiply;
+}

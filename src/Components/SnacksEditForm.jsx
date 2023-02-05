@@ -105,7 +105,7 @@ function SnackEditForm() {
         </div>
       </form>
 
-      <Link to={`/snacks/:${id}`}>
+      <Link to={`/snacks/${id}`}>
         <button>Nevermind!</button>
       </Link>
     </div>

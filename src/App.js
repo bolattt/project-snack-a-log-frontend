@@ -4,11 +4,15 @@ import Index from "./pages/Index";
 import Show from "./pages/Show";
 import Edit from "./pages/Edit";
 import NotFound from "./pages/NotFound";
+import Nav from "./Components/Nav";
+import "./App.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
       <Router>
+<Nav />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/snacks" element={<Index />} />

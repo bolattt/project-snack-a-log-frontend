@@ -1,5 +1,8 @@
+import React from "react";
+import SnacksEditForm from "../Components/SnacksEditForm";
+
 function Edit() {
-  return <div>Edit</div>;
+  return <SnacksEditForm />
 }
 
 export default Edit;

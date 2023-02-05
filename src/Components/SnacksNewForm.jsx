@@ -2,6 +2,8 @@ import axios from "axios";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
+import Button from 'react-bootstrap/Button';
+
 const API = process.env.REACT_APP_API_URL;
 
 function SnacksNewForm() {
@@ -87,11 +89,9 @@ function SnacksNewForm() {
           placeholder="http://"
         />
 
-        <div className="form-button mt-3">
-          <button id="submit" type="submit" className="btn btn-primary">
-            Submit
-          </button>
-        </div>
+
+        &nbsp; &nbsp; &nbsp; &nbsp;<Button type="submit" variant="secondary">Submit</Button>  &nbsp; &nbsp; &nbsp;
+
       </form>
     </div>
   );

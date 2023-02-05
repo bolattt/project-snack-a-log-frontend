@@ -13,7 +13,7 @@
   padding: 30px;
   box-sizing: border-box;
 }
-.home-overlay {
+/* .home-overlay {
   position: fixed;
 
   width: 100%;
@@ -22,11 +22,11 @@
   background-size: cover;
   z-index: -1;
   filter: brightness(40%) blur(2px);
-}
+} */
 .welcome-text {
   font-family: coffee;
   font-size: 12rem;
-  color: #ddd;
+  color: #292b2c;
 }
 
 .Home img {

@@ -27,3 +27,10 @@ body{
     color:aliceblue;
     text-decoration: none;
   }
+
+  h1,h2,h3{
+    font-family: "coffee";
+  src: local("CoffeeHealing"), url("../../Fonts/CoffeeHealing.ttf");
+  text-align: center;
+
+  }

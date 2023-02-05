@@ -4,7 +4,7 @@ import "./background.css";
 function Index() {
   return (
     <>
-      <h1>INDEX</h1>
+      <h1>Your snacks</h1>
       <Snacks />
     </>
   );

@@ -38,11 +38,14 @@ return(
     let link = "./" + snack.id;
 
     return(
-        <Card key={snack.name} style={{ width: '20rem', margin: "20px",boxShadow: '1px 2px 9px #999999',}}>
+        <Card key={snack.name} style={{ width: '20rem', margin: "20px",boxShadow: '1px 2px 9px #999999', padding: 0}}>
         <Card.Img variant="top" style={{margin: 0, padding: 0 }} src={snack.image || unknown} >
         </Card.Img>
         <Card.Body>
           <Card.Title>{snack.name}    {snack.is_healthy ?  <img style={{width: 15, height: 15}} src={solid}></img> : <img style={{width: 15, height: 15}} src={hollow}></img> }</Card.Title>
+          <Card.Text>
+          
+        </Card.Text>
           <Link to={link}><Button variant="dark">More Info</Button></Link>
         </Card.Body>
       </Card>

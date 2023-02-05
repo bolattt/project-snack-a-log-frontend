@@ -10,7 +10,7 @@ function ColorSchemesExample() {
           <Navbar.Brand href="/">Snack-A-🪵</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="/snacks">All Snacks</Nav.Link>
-            <Nav.Link href="/snacks/newsnacks">Add New Snack</Nav.Link>
+            <Nav.Link href="/snacks/newsnack">Add New Snack</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

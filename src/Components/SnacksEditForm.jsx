@@ -2,6 +2,9 @@ import { useParams, useNavigate, Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import axios from "axios";
 
+import Button from 'react-bootstrap/Button';
+import ButtonGroup from 'react-bootstrap/ButtonGroup';
+
 const API = process.env.REACT_APP_API_URL;
 
 function SnackEditForm() {
@@ -97,19 +100,22 @@ function SnackEditForm() {
           onChange={handleTextChange}
           placeholder="http://"
         />
+       &nbsp; &nbsp; &nbsp; &nbsp;<Button type="submit" variant="secondary">Submit</Button>  &nbsp; &nbsp; &nbsp;  { '    '}
+      <Link to={`/snacks/${id}`}><Button variant="secondary">Back</Button></Link>
 
-        <div className="form-button mt-3">
-          <button id="submit" type="submit" className="btn btn-primary">
+        {/* <div className="form-button mt-3">
+          <button id="submit" type="submit" className="btn btn-dark">
             Submit
           </button>
-        </div>
+        </div> */}
       </form>
 
-      <Link to={`/snacks/${id}`}>
+      {/* <Link to={`/snacks/${id}`}>
         <button>Nevermind!</button>
-      </Link>
+      </Link> */}
     </div>
-  );
+
+    )
 }
 
 export default SnackEditForm;

@@ -1,0 +1,55 @@
+/* 
+.showNavigation {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+  }
+
+  h4 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  } */
+
+  .homePAge{
+    
+    margin: auto;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 20px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif
+  
+  
+  }
+  
+  .cardContact{
+    text-align: center;
+    font-size: medium;
+    border: solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+
+/* MEDIA QUERY FOR SMALLER SCREEN SIZE */
+@media (min-width: 0px) and (max-width: 429px) {
+  .welcome-text{
+    font-size:30px;
+  }
+
+  img {
+    max-width: 300px;
+    height:auto;
+  }
+}
+
+
+/* MEDIA QUERY FOR SMALLER SCREEN SIZE */
+@media (min-width: 430px) and (max-width: 5000px) {
+  .welcome-text{
+    font-size:50px;
+  }
+}

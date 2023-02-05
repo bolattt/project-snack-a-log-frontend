@@ -11,7 +11,7 @@ function Home() {
           src="https://s3.amazonaws.com/wawa-kentico-prod/wawa/media/product-images/snacks/snacks2020_final.png"
           alt=""
         />
-        <Link to="/index">
+        <Link to="/snacks">
           <button className="button button-primary">Get Started</button>
         </Link>
       </div>

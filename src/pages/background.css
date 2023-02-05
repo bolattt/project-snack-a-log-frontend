@@ -1,4 +1,29 @@
 body{
     background-image: url("https://media.istockphoto.com/id/1135809421/vector/seamless-diagonal-pinstripe-pattern-striped-lines-texture.jpg?s=612x612&w=0&k=20&c=hoj1NyecMcOmpjf6ZwckwXO6jEnPVsX8zkuEC9dT_Qk=");
+    /* background-image:url("https://i.etsystatic.com/14738248/r/il/2cfa98/4092186068/il_1588xN.4092186068_5cdt.jpg"); */
+    /* background-image: url("https://www.zingerbug.com/Backgrounds/background_images/gray_diagonal_stripes_seamless_background_pattern.jpg"); */
+    background-size: 300px;
     background-repeat: repeat;
+    background-color: rgba(255, 255, 255, .7);
 }
+
+.list-group-mine .list-group-item {
+    background-color: #292b2c;
+    border-top: 1px solid #3f4244;
+    border-left-color: #55595b;
+    border-right-color: #292b2c;
+    text-align: right;
+    font-weight: 600;
+    color:aliceblue;
+  }
+  
+  .list-group-mine .list-group-item:hover {
+    background-color: #515557;
+    color:aliceblue;
+  }
+
+  .list-group-mine .list-group-item a:visited {
+    background-color: #515557;
+    color:aliceblue;
+    text-decoration: none;
+  }

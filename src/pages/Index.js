@@ -1,4 +1,6 @@
 import Snacks from "../Components/Snacks";
+import "./background.css";
+
 function Index() {
   return (
     <>

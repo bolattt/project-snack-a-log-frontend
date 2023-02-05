@@ -8,6 +8,8 @@ import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 
 
+import Button from 'react-bootstrap/Button';
+
 const API = process.env.REACT_APP_API_URL;
 
 function SnacksNewForm() {
@@ -148,6 +150,7 @@ function SnacksNewForm() {
           </Form>
         </Row>
       </Container>
+
     </div>
   );
 }

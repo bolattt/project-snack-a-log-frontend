@@ -7,6 +7,8 @@ import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 
+import Button from 'react-bootstrap/Button';
+
 const API = process.env.REACT_APP_API_URL;
 
 function SnackEditForm() {
@@ -168,8 +170,10 @@ function SnackEditForm() {
           </Form>
         </Row>
       </Container>
+
     </div>
-  );
+
+    )
 }
 
 export default SnackEditForm;
